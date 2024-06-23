@@ -121,9 +121,9 @@ async def main():
         CHUNK_SIZE,
     )
 
-    asyncio.sleep(5)
-    print('Websocket connection stopping...')
-    await Connection.disconnect()
+    # asyncio.sleep(5)
+    # print('Websocket connection stopping...')
+    # await Connection.disconnect()
 
     transcript = Connection.transcript
     
