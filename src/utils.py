@@ -4,7 +4,7 @@ from pdf2image import convert_from_bytes
 from io import BytesIO
 import re
 
-client = OpenAI(api_key='sk-proj-8h8YSkEOQss5XNj53ZO9T3BlbkFJvqDTvPIoHDnkuK48aBi8')
+client = OpenAI(api_key='enter_key_here')
 
 def get_base64_pdf_image(resume_image):    
     # Assuming we want the first page
